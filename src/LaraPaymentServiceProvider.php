@@ -13,7 +13,12 @@ class LaraPaymentServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+
+        $this->publishes([
+            __DIR__.'/../config/lara_payments.php' => config_path('lara_payments.php')
+        ], 'config');
+
+
     }
 
     /**
