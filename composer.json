@@ -1,0 +1,12 @@
+{
+    "name": "angryalf/lara-payment",
+    "description": "Laravel payment processor package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Andrii Bidlovskiy",
+            "email": "angryalf@gmail.com"
+        }
+    ],
+    "require": {}
+}
