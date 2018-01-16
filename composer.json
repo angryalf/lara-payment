@@ -8,5 +8,17 @@
             "email": "angryalf@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Angryalf\\LaraPayments\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Angryalf\\LaraPayments\\LaraPaymentServiceProvider"
+            ]
+        }
+    }
 }
